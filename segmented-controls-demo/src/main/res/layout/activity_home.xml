@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        style="@style/SegmentedControlContainerStyle">
+
+        <RadioButton
+            android:id="@+id/paperClip"
+            android:checked="true"
+            android:text="Paper Clip"
+            style="@style/SegmentedControlStyle.Beginning" />
+
+        <RadioButton
+            android:id="@+id/calendar"
+            android:text="Calendar"
+            style="@style/SegmentedControlStyle.Middle" />
+
+        <RadioButton
+            android:id="@+id/bell"
+            android:text="Bell"
+            style="@style/SegmentedControlStyle.End" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        style="@style/SegmentedControlContainerStyle">
+
+        <RadioButton
+            android:id="@+id/iconPaperClip"
+            android:checked="true"
+            android:text="Paper Clip"
+            style="@style/SegmentedControlStyle.Beginning" />
+
+        <RadioButton
+            android:id="@+id/iconCalendar"
+            android:text="Calendar"
+            style="@style/SegmentedControlStyle.Middle" />
+
+        <RadioButton
+            android:id="@+id/iconBell"
+            android:text="Bell"
+            style="@style/SegmentedControlStyle.End" />
+    </RadioGroup>
+</LinearLayout>

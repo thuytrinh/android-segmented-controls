@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="SegmentedControlStyle">
+        <item name="android:textColor">@drawable/selector_sc_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SegmentedControlStyle.Beginning">
+        <item name="android:background">@drawable/selector_sc_bg_beginning</item>
+    </style>
+
+    <style name="SegmentedControlStyle.Middle">
+        <item name="android:background">@drawable/selector_sc_bg_middle</item>
+    </style>
+
+    <style name="SegmentedControlStyle.End">
+        <item name="android:background">@drawable/selector_sc_bg_end</item>
+    </style>
+
+    <style name="SegmentedControlContainerStyle">
+        <item name="android:background">@drawable/shape_sc_container_border</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:divider">@drawable/shape_sc_container_divider</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="sc_corner_radius">4dp</dimen>
+    <dimen name="sc_border_thickness">1dp</dimen>
+
+</resources>
