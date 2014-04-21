@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- NOTE: Using 'android:exitFadeDuration' here causes some strange transitions between drawables -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/layerlist_calendar_checked"
+        android:state_checked="true"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/layerlist_calendar_checked"
+        android:state_checked="true" />
+    <item android:drawable="@drawable/layerlist_calendar_pressed"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/layerlist_calendar" />
+
+</selector>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<selector android:exitFadeDuration="@android:integer/config_shortAnimTime"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime">
 
-    <item android:state_checked="true"
-        android:state_pressed="true"
-        android:color="@android:color/white" />
-    <item android:state_checked="true"
-        android:color="@android:color/white" />
-    <item android:state_pressed="true"
-        android:color="@color/sc" />
+    <item android:color="@android:color/white"
+        android:state_checked="true"
+        android:state_pressed="true" />
+    <item android:color="@android:color/white"
+        android:state_checked="true" />
+    <item android:color="@color/sc"
+        android:state_pressed="true" />
     <item android:color="@color/sc" />
 
 </selector>

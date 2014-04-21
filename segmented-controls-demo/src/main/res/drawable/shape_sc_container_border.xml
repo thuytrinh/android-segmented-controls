@@ -5,8 +5,8 @@
 
     <corners android:radius="@dimen/sc_corner_radius" />
     <stroke
-        android:color="@color/sc"
-        android:width="@dimen/sc_border_thickness" />
+        android:width="@dimen/sc_border_thickness"
+        android:color="@color/sc" />
     <solid android:color="@android:color/transparent" />
 
 </shape>

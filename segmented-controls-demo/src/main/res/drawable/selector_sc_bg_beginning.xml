@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<selector android:exitFadeDuration="@android:integer/config_shortAnimTime"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime">
 
-    <item android:state_checked="true"
-        android:state_pressed="true"
-        android:drawable="@drawable/shape_sc_bg_beginning_checked" />
-    <item android:state_checked="true"
-        android:drawable="@drawable/shape_sc_bg_beginning_checked" />
-    <item android:state_pressed="true"
-        android:drawable="@drawable/shape_sc_bg_beginning_pressed" />
+    <item android:drawable="@drawable/shape_sc_bg_beginning_checked"
+        android:state_checked="true"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/shape_sc_bg_beginning_checked"
+        android:state_checked="true" />
+    <item android:drawable="@drawable/shape_sc_bg_beginning_pressed"
+        android:state_pressed="true" />
     <item android:drawable="@android:color/transparent" />
 
 </selector>

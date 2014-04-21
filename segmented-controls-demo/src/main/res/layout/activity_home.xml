@@ -4,48 +4,48 @@
     android:orientation="vertical">
 
     <RadioGroup
-        android:layout_margin="12dp"
+        style="@style/SegmentedControlContainerStyle"
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
-        style="@style/SegmentedControlContainerStyle">
+        android:layout_margin="12dp">
 
         <RadioButton
             android:id="@+id/paperClip"
+            style="@style/SegmentedControlStyle.Beginning"
             android:checked="true"
-            android:text="Paper Clip"
-            style="@style/SegmentedControlStyle.Beginning" />
+            android:text="Paper Clip" />
 
         <RadioButton
             android:id="@+id/calendar"
-            android:text="Calendar"
-            style="@style/SegmentedControlStyle.Middle" />
+            style="@style/SegmentedControlStyle.Middle"
+            android:text="Calendar" />
 
         <RadioButton
             android:id="@+id/bell"
-            android:text="Bell"
-            style="@style/SegmentedControlStyle.End" />
+            style="@style/SegmentedControlStyle.End"
+            android:text="Bell" />
     </RadioGroup>
 
     <RadioGroup
-        android:layout_margin="12dp"
+        style="@style/SegmentedControlContainerStyle"
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
-        style="@style/SegmentedControlContainerStyle">
+        android:layout_margin="12dp">
 
         <RadioButton
             android:id="@+id/iconPaperClip"
-            android:checked="true"
-            android:text="Paper Clip"
-            style="@style/SegmentedControlStyle.Beginning" />
+            style="@style/SegmentedControlStyle"
+            android:background="@drawable/selector_paper_clip"
+            android:checked="true" />
 
         <RadioButton
             android:id="@+id/iconCalendar"
-            android:text="Calendar"
-            style="@style/SegmentedControlStyle.Middle" />
+            style="@style/SegmentedControlStyle"
+            android:background="@drawable/selector_calendar" />
 
         <RadioButton
             android:id="@+id/iconBell"
-            android:text="Bell"
-            style="@style/SegmentedControlStyle.End" />
+            style="@style/SegmentedControlStyle"
+            android:background="@drawable/selector_bell" />
     </RadioGroup>
 </LinearLayout>

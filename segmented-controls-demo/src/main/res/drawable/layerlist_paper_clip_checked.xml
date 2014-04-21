@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shape_sc_bg_beginning_checked" />
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_paper_clip_pressed" />
+    </item>
+
+</layer-list>
